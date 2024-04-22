@@ -4,7 +4,7 @@
   <img src="https://github.com/Ing-Brayan-Martinez/Kotlin-Algorithm-Example/blob/main/.github/assest/Kotlin.png" alt="Kotlin" width="800"/>
 </h1>
 
-[![Dart Continuous Integration](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml/badge.svg)](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml)
+[![Kotlin Continuous Integration](https://github.com/Ing-Brayan-Martinez/Kotlin-Algorithm-Example/actions/workflows/maven.yml/badge.svg)](https://github.com/Ing-Brayan-Martinez/Kotlin-Algorithm-Example/actions/workflows/maven.yml)
 
 ### Introduccion
 
