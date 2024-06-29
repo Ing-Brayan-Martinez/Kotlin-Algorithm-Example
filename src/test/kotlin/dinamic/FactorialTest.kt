@@ -10,9 +10,9 @@ internal class FactorialTest {
         val num = 5
         val expectedValue = 120
 
-        val resultValue: Int = factorial(num)
-
         print("-- Factorial -- \n\n")
+
+        val resultValue: Int = factorial(num)
 
         print("Factorial of $num  is $resultValue \n\n")
 

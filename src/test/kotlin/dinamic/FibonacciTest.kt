@@ -10,9 +10,9 @@ internal class FibonacciTest {
         val num = 20
         val expectedValue = 6765
 
-        val resultValue: Int = fibonacci(num)
-
         print("-- Fibonacci -- \n\n")
+
+        val resultValue: Int = fibonacci(num)
 
         print("Fibonacci of $num  is $resultValue \n\n")
 

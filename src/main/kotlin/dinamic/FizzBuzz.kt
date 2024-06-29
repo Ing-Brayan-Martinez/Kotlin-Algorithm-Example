@@ -1,15 +1,13 @@
 package org.example.dinamic
 
-fun fizzbuzz(n: Int) {
-    for (i in 1..n) {
-        if (i % 3 == 0 && i % 5 == 0) {
-            println("FizzBuzz")
-        } else if (i % 3 == 0) {
-            println("Fizz")
-        } else if (i % 5 == 0) {
-            println("Buzz")
-        } else {
-            println(i)
-        }
+fun fizzbuzz(n: Int): String {
+    return if (n % 3 == 0 && n % 5 == 0) {
+        "FizzBuzz"
+    } else if (n % 3 == 0) {
+        "Fizz"
+    } else if (n % 5 == 0) {
+        "Buzz"
+    } else {
+        "$n"
     }
 }
