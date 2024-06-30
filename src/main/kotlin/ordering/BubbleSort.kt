@@ -3,7 +3,7 @@ package ordering
 fun bubbleSort(data: MutableList<Int>) {
     for (i in 0 until data.size - 1) {
         var breakCount = 0
-        for (j in 0 until data.size - 1 - i) {
+        for (j in 0 until data.size - i - 1) {
             if (data[j] > data[j + 1]) {
                 swap(j, j + 1, data)
                 breakCount++
