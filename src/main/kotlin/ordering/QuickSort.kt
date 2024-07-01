@@ -1,6 +1,6 @@
 package ordering
 
-fun quickSort(data: MutableList<Int>): Void? {
+fun quickSort(data: MutableList<Int>) {
     val lower = 0
     val upper = data.size - 1
 
@@ -10,17 +10,6 @@ fun quickSort(data: MutableList<Int>): Void? {
         internalQuickSort(data, lower, partitionIndex - 1)
         internalQuickSort(data, partitionIndex + 1, upper)
     }
-    return null
-}
-
-private fun swap(data: MutableList<Int>, first: Int, second: Int) {
-    var value1 = data[first]
-    var value2 = data[second]
-    val temp = value1
-    value1 = value2
-    value2 = temp
-    data[first] = value1
-    data[second] = value2
 }
 
 private fun partition(data: MutableList<Int>, lower: Int, upper: Int): Int {
@@ -30,11 +19,11 @@ private fun partition(data: MutableList<Int>, lower: Int, upper: Int): Int {
     for (j in lower until upper) {
         if (data[j] <= pivot) {
             i++
-            swap(data, i, j)
+            swap(i, j, data)
         }
     }
 
-    swap(data, i + 1, upper)
+    swap(i + 1, upper, data)
     return (i + 1)
 }
 
@@ -49,4 +38,14 @@ private fun internalQuickSort(data: MutableList<Int>, lower: Int, upper: Int) {
         internalQuickSort(data, lower, partitionIndex - 1)
         internalQuickSort(data, partitionIndex + 1, upper)
     }
+}
+
+private fun swap(first: Int, second: Int, data: MutableList<Int>) {
+    var value1 = data[first]
+    var value2 = data[second]
+    val temp = value1
+    value1 = value2
+    value2 = temp
+    data[first] = value1
+    data[second] = value2
 }
