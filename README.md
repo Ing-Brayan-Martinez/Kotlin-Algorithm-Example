@@ -1,7 +1,7 @@
 <h1 align="center">Aprendiendo el Lenguaje Kotlin</h1>
 
 <h1 align="center">
-  <img src="https://github.com/Ing-Brayan-Martinez/Kotlin-Algorithm-Example/blob/main/.github/assest/Kotlin.png" alt="Kotlin" width="800"/>
+  <img src="https://github.com/Ing-Brayan-Martinez/Kotlin-Algorithm-Example/blob/main/.github/assest/Kotlin2.png" alt="Kotlin" width="800"/>
 </h1>
 
 [![Kotlin Continuous Integration](https://github.com/Ing-Brayan-Martinez/Kotlin-Algorithm-Example/actions/workflows/maven.yml/badge.svg)](https://github.com/Ing-Brayan-Martinez/Kotlin-Algorithm-Example/actions/workflows/maven.yml)
